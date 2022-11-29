@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { useTweet } from './tweet/tweet'
 
 export const Img = ({ width, height, src, ...p }) => {
@@ -20,7 +19,7 @@ export const Img = ({ width, height, src, ...p }) => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <Image
+          <img
             {...p}
             src={`${src}&name=small`}
             quality={80}
