@@ -24,8 +24,7 @@
     "test": "run-s test:*",
     "test:prettier": "prettier '**/*.{js,jsx,json,ts,tsx}' --check",
     "publish": "lerna publish",
-    "bootstrap": "lerna bootstrap",
-    "postinstall": "run-s bootstrap"
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
     "@types/node": "^17.0.22",
